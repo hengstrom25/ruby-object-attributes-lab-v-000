@@ -4,5 +4,15 @@ class Dog
   end
   
   def name
-    @this_dogs_name
+    @dogs_name
   end
+  
+  def breed=(dogs_breed)
+    @breed = dogs_breed
+  end
+  
+  def breed
+    @dogs_name
+  end
+    
+end
